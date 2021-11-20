@@ -5,7 +5,7 @@ contract SwitchForMoney
 {
     address public owner;
 
-    uint256 balanceEnabled;
+    uint256 balanceEnabled
     uint256 balanceDisabled;
 
     // если balanceEnabled > balanceDisabled то одно состояние, иначе другое
