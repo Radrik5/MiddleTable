@@ -34,4 +34,4 @@ jobs:
         run: |
           echo $GITHUB_WORKSPACE
           tree $GITHUB_WORKSPACE
-          docker run -v $GITHUB_WORKSPACE:/workspace ethereum/solc:stable contracts/svetofor.sol
+          docker run -v $GITHUB_WORKSPACE:/workspace -w /workspace ethereum/solc:stable contracts/svetofor.sol
